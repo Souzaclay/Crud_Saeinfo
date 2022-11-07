@@ -1,0 +1,179 @@
+﻿@model TelaCadastro.Util.TabelaGenerica<DAL.Model.Cidade>
+@{
+    ViewBag.Title = "Cadastro - Cidade";
+}
+
+<div class="container">
+    <div class="painel">
+        <h4>Filtros</h4>
+        <hr />
+
+        @using (Html.BeginForm("TabelaCidade", "Cidade", FormMethod.Get, new { id = "formFiltros" }))
+        {
+            @Html.Hidden("PaginaAtual")
+            @Html.Hidden("Paginacao")
+
+            <div class="row">
+                <div class="grid-2">
+                    @Html.Label("codigo", "Código")
+                    @Html.TextBox("codigo", null, new { @class = "formulario-controle", type = "Number" })
+                </div>
+                <div class="grid-4">
+                    @Html.Label("nome", "Nome")
+                    @Html.TextBox("nome", null, new { @class = "formulario-controle" })
+                </div>
+                <div class="grid-2">
+                    @Html.Label("estado", "Estado")
+                    @Html.TextBox("estado", null, new { @class = "formulario-controle" })
+                </div>
+                <div class="grid-2">
+                    @Html.Label("cep", "CEP")
+                    @Html.TextBox("cep", null, new { @class = "formulario-controle" })
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="grid-12">
+                    <button type="button" class="botao botao-primario" onclick="filtrarGrid(null, 'cidade');">
+                        Filtrar
+                    </button>
+                    <button type="button" class="botao botao-perigo" onclick="limparFiltros(null, 'cidade');">
+                        Limpar
+                    </button>
+                </div>
+            </div>
+        }
+
+    </div>
+</div>
+<br />
+<div class="container">
+    <div class="painel">
+        <button type="button" class="botao botao-primario" onclick="window.location.href='@Url.Action("Incluir","Cidade")'">
+            Criar
+        </button>
+        <br />
+
+        <div class="row">
+            <div id="divTabela">
+                @Html.Partial("TabelaCidade", Model)
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $("#cep").mask("999.99-999");
+        });
+
+        function filtrarGrid(idForm, nomePagina, funcaoPosEvento, divTabela) {
+            if (!verificaValor(idForm)) {
+                idForm = "formFiltros";
+            }
+
+            if (!verificaValor(divTabela)) {
+                divTabela = "divTabela";
+            }
+
+            $.post($("form[id=" + idForm + "] ").attr("action"), { filtros: $("form[id=" + idForm + "] ").serializeArray() })
+                .done(function (data) {
+                    $("#" + divTabela).html(data);
+
+                    eval(funcaoPosEvento);
+
+                    $('button[title]').qtip({
+                        style: {
+                            classes: "qtip-tipsy qtip-shadow qtip-rounded"
+                        },
+                        position: {
+                            my: 'right top'
+                        }
+                    });
+                    if (verificaValor(nomePagina)) {
+                        $("form[id=" + idForm + "] input, select, textarea").each(function () {
+                            if (verificaValor(localStorage[nomePagina + this.id])) {
+                                localStorage.removeItem(nomePagina + this.id);
+                            }
+                        });
+                        $("form[id=" + idForm + "] input, select, textarea").each(function () {
+                            if (verificaValor(this.value)) {
+                                localStorage.setItem(nomePagina + this.id, this.value);
+                            }
+                        });
+                    }
+                });
+        }
+
+        function limparFiltros(idForm, nomePagina, funcaoPosEvento, divTabela) {
+            limparForm(idForm, nomePagina);
+            filtrarGrid(idForm, nomePagina, funcaoPosEvento, divTabela);
+        }
+
+        function limparForm(idForm, nomePagina) {
+            //Se não informou id, é para limpar outro form
+            if (!verificaValor(idForm)) {
+                idForm = "formFiltros";
+            }
+
+            //limpando todos os textbox's e hidden's
+            $("form[id=" + idForm + "] textarea, form[id=" + idForm + "] input[type=number], form[id=" + idForm + "] input[type=text], form[id=" + idForm + "] input[type=hidden], form[id=" + idForm + "] input[type=date], form[id=" + idForm + "] select").val('');
+
+            //limpando os radio's
+            $("form[id=" + idForm + "] input[type=radio], form[id=" + idForm + "] input[type=checkbox]").each(function () {
+                $(this).removeAttr('checked');
+            });
+
+
+            $("form[id=" + idForm + "] select").each(function () {
+                $(this).val('');
+                //$(this).selectpicker('refresh');
+
+                $(this).val('').trigger("change");
+            });
+
+            if (verificaValor(nomePagina)) {
+                //Limpando localStorage
+                $("form[id=" + idForm + "] input, select, textarea").each(function () {
+                    if (verificaValor(localStorage[nomePagina + this.id])) {
+                        localStorage.removeItem(nomePagina + this.id);
+                    }
+                });
+            }
+        }
+
+        function verificaValor(valor) {
+            return valor != "" && valor != null && valor != undefined && valor != "undefined";
+        }
+
+        function Ordenar(campo) {
+
+            var ordem = "desc";
+            var ultimocampo = localStorage.getItem("Ordenar");
+            var ultimaordem = localStorage.getItem("Ordem");
+
+            if (ultimocampo == campo) {
+                if (ultimaordem == "cres")
+                    ordem = "desc";
+                else
+                    ordem = "cres"
+            }
+
+            localStorage.setItem("Ordenar", campo);
+            localStorage.setItem("Ordem", ordem);
+
+            $.post("Cidade/Ordenar", { campo: campo, ordem: ordem }).done(function (data) {
+                $("#divTabela").html(data);
+            });
+        }
+
+        function mudarPagina(pagina) {
+            if (verificaValor(pagina)) {
+                $("#PaginaAtual").val(pagina);
+            }
+            filtrarGrid();
+        }
+
+    </script>
+}

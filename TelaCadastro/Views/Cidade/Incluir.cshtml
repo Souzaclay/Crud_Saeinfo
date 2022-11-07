@@ -1,0 +1,52 @@
+﻿@model TelaCadastro.ViewModels.CidadeViewModel
+@{
+    ViewBag.Title = "Incluir Cidade";
+}
+
+
+<div class="container">
+    <div class="painel">
+        @using (Html.BeginForm("Incluir", "Cidade", FormMethod.Post, new { @id = "formFiltros" }))
+        {
+            <h3>Incluir Cidade</h3>
+            <hr />
+
+            <div class="painel">
+                <div class="row">
+                    <div class="grid-4">
+                        @Html.Label("Nome")
+                        @Html.TextBoxFor(ent => ent.nome, new { @class = "formulario-controle", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.nome)
+                    </div>
+                    <div class="grid-2">
+                        @Html.Label("Estado")
+                        @Html.TextBoxFor(ent => ent.estado, new { @class = "formulario-controle", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.estado)
+                    </div>
+                    <div class="grid-2">
+                        @Html.Label("CEP")
+                        @Html.TextBoxFor(ent => ent.cep, new { @class = "formulario-controle", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.cep)
+                    </div>
+                </div>
+            </div>
+
+            <br />
+
+            <div class="row">
+                <div class="grid-12">
+                    <button type="submit" class="botao botao-sucesso">Salvar</button>
+                    <button type="button" class="botao botao-primario" onclick="window.location.href='@Url.Action("Index","Cidade")'">Voltar</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $("#cep").mask("999.99-999");
+        });
+    </script>
+}

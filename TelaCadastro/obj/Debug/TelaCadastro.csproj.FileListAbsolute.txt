@@ -1,0 +1,590 @@
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\TelaCadastro.dll.config
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\TelaCadastro.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\TelaCadastro.pdb
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\csc.exe
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\csc.exe.config
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\csc.rsp
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\csi.exe
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\csi.exe.config
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\csi.rsp
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.AppContext.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Console.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.Compression.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.Pipes.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Claims.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.ValueTuple.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.XPath.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\vbc.exe
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\vbc.exe.config
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\vbc.rsp
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\VBCSCompiler.exe
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\Antlr3.Runtime.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\DAL.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\EntityFramework.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\EntityFramework.SqlServer.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\Newtonsoft.Json.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.Helpers.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.Mvc.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.Optimization.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.Razor.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Deployment.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Razor.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\WebGrease.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\DAL.pdb
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\DAL.dll.config
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\EntityFramework.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\EntityFramework.SqlServer.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.Helpers.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.Mvc.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.Optimization.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.Razor.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Deployment.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Razor.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\Newtonsoft.Json.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\Antlr3.Runtime.pdb
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.csprojAssemblyReference.cache
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.csproj.CoreCompileInputs.cache
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.csproj.CopyComplete
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.pdb
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\BouncyCastle.Crypto.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\Common.Logging.Core.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\Common.Logging.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.barcodes.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.forms.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.html2pdf.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.io.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.kernel.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.layout.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.pdfa.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.sign.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.styledxmlparser.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.svg.dll
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\BouncyCastle.Crypto.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\Common.Logging.pdb
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\Common.Logging.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\Common.Logging.Core.pdb
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\Common.Logging.Core.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.barcodes.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.forms.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.html2pdf.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.io.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.kernel.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.layout.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.pdfa.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.sign.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.styledxmlparser.xml
+C:\Users\aiigh\source\repos\TelaCadastro\TelaCadastro\bin\itext.svg.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\TelaCadastro.dll.config
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\TelaCadastro.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\TelaCadastro.pdb
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\csc.exe
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\csc.exe.config
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\csc.rsp
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\csi.exe
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\csi.exe.config
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\csi.rsp
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.AppContext.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Console.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.Compression.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.Pipes.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Claims.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.ValueTuple.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.XPath.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\vbc.exe
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\vbc.exe.config
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\vbc.rsp
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\VBCSCompiler.exe
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\Antlr3.Runtime.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\BouncyCastle.Crypto.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\Common.Logging.Core.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\Common.Logging.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\DAL.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\EntityFramework.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\EntityFramework.SqlServer.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.barcodes.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.forms.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.html2pdf.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.io.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.kernel.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.layout.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.pdfa.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.sign.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.styledxmlparser.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.svg.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\Newtonsoft.Json.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.Helpers.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.Mvc.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.Optimization.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.Razor.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Razor.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\WebGrease.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\DAL.pdb
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\DAL.dll.config
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\BouncyCastle.Crypto.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\Common.Logging.pdb
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\Common.Logging.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\Common.Logging.Core.pdb
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\Common.Logging.Core.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\EntityFramework.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\EntityFramework.SqlServer.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.barcodes.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.forms.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.html2pdf.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.io.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.kernel.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.layout.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.pdfa.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.sign.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.styledxmlparser.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\itext.svg.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.Helpers.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.Mvc.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.Optimization.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.Razor.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Razor.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\Newtonsoft.Json.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\Antlr3.Runtime.pdb
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.csprojAssemblyReference.cache
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.csproj.CoreCompileInputs.cache
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.csproj.CopyComplete
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.dll
+C:\Users\lorra\source\repos\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.pdb
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\TelaCadastro.dll.config
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\TelaCadastro.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\TelaCadastro.pdb
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\csc.exe
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\csc.exe.config
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\csc.rsp
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\csi.exe
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\csi.exe.config
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\csi.rsp
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.AppContext.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.Console.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.Compression.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.Pipes.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Claims.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.ValueTuple.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.XPath.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\vbc.exe
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\vbc.exe.config
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\vbc.rsp
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\VBCSCompiler.exe
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\Antlr3.Runtime.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\BouncyCastle.Crypto.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\Common.Logging.Core.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\Common.Logging.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\DAL.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\EntityFramework.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\EntityFramework.SqlServer.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.barcodes.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.forms.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.html2pdf.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.io.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.kernel.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.layout.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.pdfa.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.sign.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.styledxmlparser.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.svg.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\Newtonsoft.Json.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\System.Web.Helpers.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\System.Web.Mvc.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\System.Web.Optimization.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\System.Web.Razor.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Razor.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\WebGrease.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\DAL.pdb
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\DAL.dll.config
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\BouncyCastle.Crypto.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\Common.Logging.pdb
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\Common.Logging.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\Common.Logging.Core.pdb
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\Common.Logging.Core.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\EntityFramework.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\EntityFramework.SqlServer.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.barcodes.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.forms.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.html2pdf.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.io.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.kernel.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.layout.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.pdfa.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.sign.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.styledxmlparser.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\itext.svg.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\System.Web.Helpers.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\System.Web.Mvc.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\System.Web.Optimization.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\System.Web.Razor.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Razor.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\Newtonsoft.Json.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\Antlr3.Runtime.pdb
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.csprojAssemblyReference.cache
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.csproj.CoreCompileInputs.cache
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.csproj.CopyComplete
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.dll
+C:\Users\lorra\source\repos\desenvolvimento\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.pdb
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\TelaCadastro.dll.config
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\TelaCadastro.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\TelaCadastro.pdb
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\csc.exe
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\csc.exe.config
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\csc.rsp
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\csi.exe
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\csi.exe.config
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\csi.rsp
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.AppContext.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Collections.Immutable.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Console.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.Compression.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.FileSystem.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.Pipes.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.AccessControl.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Claims.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.ValueTuple.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.XPath.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\vbc.exe
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\vbc.exe.config
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\vbc.rsp
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\VBCSCompiler.exe
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\VBCSCompiler.exe.config
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Antlr3.Runtime.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\BouncyCastle.Crypto.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Common.Logging.Core.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Common.Logging.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\DAL.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\EntityFramework.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\EntityFramework.SqlServer.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.barcodes.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.forms.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.html2pdf.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.io.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.kernel.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.layout.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.pdfa.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.sign.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.styledxmlparser.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.svg.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Microsoft.Web.Infrastructure.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Newtonsoft.Json.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.Helpers.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.Mvc.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.Optimization.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.Razor.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Deployment.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Razor.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\WebGrease.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\DAL.pdb
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\DAL.dll.config
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\BouncyCastle.Crypto.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Common.Logging.pdb
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Common.Logging.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Common.Logging.Core.pdb
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Common.Logging.Core.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\EntityFramework.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\EntityFramework.SqlServer.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.barcodes.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.forms.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.html2pdf.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.io.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.kernel.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.layout.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.pdfa.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.sign.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.styledxmlparser.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.svg.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.Helpers.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.Mvc.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.Optimization.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.Razor.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Deployment.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Razor.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Newtonsoft.Json.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Antlr3.Runtime.pdb
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Helpers.resources.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Mvc.resources.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Optimization.resources.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Razor.resources.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.WebPages.resources.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.csproj.AssemblyReference.cache
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.csproj.CoreCompileInputs.cache
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.csproj.CopyComplete
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.pdb
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\TelaCadastro.dll.config
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\TelaCadastro.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\TelaCadastro.pdb
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\csc.exe
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\csc.exe.config
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\csc.rsp
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\csi.exe
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\csi.exe.config
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\csi.rsp
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.Managed.Core.targets
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.AppContext.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Collections.Immutable.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Console.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.Compression.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.FileSystem.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.IO.Pipes.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Reflection.Metadata.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.AccessControl.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Claims.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Security.Principal.Windows.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.ValueTuple.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.XmlDocument.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.XPath.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\vbc.exe
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\vbc.exe.config
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\vbc.rsp
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\VBCSCompiler.exe
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\roslyn\VBCSCompiler.exe.config
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Antlr3.Runtime.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\BouncyCastle.Crypto.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Common.Logging.Core.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Common.Logging.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\DAL.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\EntityFramework.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\EntityFramework.SqlServer.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.barcodes.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.forms.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.html2pdf.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.io.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.kernel.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.layout.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.pdfa.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.sign.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.styledxmlparser.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.svg.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Microsoft.Web.Infrastructure.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Newtonsoft.Json.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.Helpers.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.Mvc.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.Optimization.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.Razor.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Deployment.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Razor.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\WebGrease.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\DAL.pdb
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\DAL.dll.config
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\BouncyCastle.Crypto.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Common.Logging.pdb
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Common.Logging.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Common.Logging.Core.pdb
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Common.Logging.Core.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\EntityFramework.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\EntityFramework.SqlServer.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.barcodes.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.forms.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.html2pdf.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.io.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.kernel.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.layout.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.pdfa.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.sign.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.styledxmlparser.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\itext.svg.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.Helpers.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.Mvc.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.Optimization.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.Razor.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Deployment.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\System.Web.WebPages.Razor.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Newtonsoft.Json.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Antlr3.Runtime.pdb
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Helpers.resources.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Mvc.resources.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Optimization.resources.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.Razor.resources.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.WebPages.resources.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.csproj.AssemblyReference.cache
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.csproj.CoreCompileInputs.cache
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.csproj.CopyComplete
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\TelaCadastro\obj\Debug\TelaCadastro.pdb

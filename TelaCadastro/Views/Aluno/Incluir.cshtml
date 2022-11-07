@@ -1,0 +1,261 @@
+﻿@model TelaCadastro.ViewModels.AlunoViewModel
+@{
+    ViewBag.Title = "Incluir Aluno";
+}
+
+<div class="container">
+    <div class="painel">
+        @using (Html.BeginForm("Incluir", "Aluno", FormMethod.Post, new { @id = "formFiltros" }))
+        {
+            <h3>Incluir Aluno</h3>
+            <hr />
+
+            <div class="painel">
+                <div class="row">
+                    <div class="grid-4">
+                        @Html.Label("Nome")
+                        @Html.TextBoxFor(ent => ent.nome, new { @class = "formulario-controle", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.nome)
+                    </div>
+                    <div class="grid-2">
+                        @Html.Label("CPF")
+                        @Html.TextBoxFor(ent => ent.cpf, new { @class = "formulario-controle", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.cpf)
+                    </div>
+                    <div class="grid-2">
+                        @Html.Label("RG")
+                        @Html.TextBoxFor(ent => ent.rg, new { @class = "formulario-controle", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.rg)
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="grid-2">
+                        @Html.Label("Data de Nascimento")
+                        @Html.TextBoxFor(ent => ent.datanascimento, new { @class = "formulario-controle DatePicker", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.datanascimento)
+                    </div>
+                    <div class="grid-2">
+                        @Html.Label("Idade")
+                        @Html.TextBoxFor(ent => ent.idade, new { @class = "formulario-controle", @type = "Number", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.idade)
+                    </div>
+                    <div class="grid-2">
+                        @Html.Label("Sexo")
+                        @Html.DropDownListFor(ent => ent.sexo, ViewBag.ListaSexo as SelectList, new { @class = "formulario-controle", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.sexo)
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="grid-2">
+                        @Html.Label("E-mail")
+                        @Html.TextBoxFor(ent => ent.email, new { @class = "formulario-controle", @placeholder = "exemplo@exemplo.com.br", type = "email", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.email)
+                    </div>
+                    <div class="grid-2">
+                        @Html.Label("Telefone")
+                        @Html.TextBoxFor(ent => ent.telefone, new { @class = "formulario-controle", @placeholder = "(99)999999-9999", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.telefone)
+                    </div>
+                </div>
+            </div>
+
+            <br />
+
+            <div class="painel">
+                <div class="row">
+                    <h2>Endereço</h2>
+                </div>
+
+                <br />
+
+                <div class="row">
+                    <div class="grid-2">
+                        @Html.Label("CEP")
+                        @Html.TextBoxFor(ent => ent.endereco.cep, new { @class = "formulario-controle", @onchange = "PesquisaCep()", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.endereco.cep)
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="grid-4">
+                        @Html.Label("Logradouro")
+                        @Html.TextBoxFor(ent => ent.endereco.logradouro, new { @class = "formulario-controle", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.endereco.logradouro)
+                    </div>
+                    <div class="grid-4">
+                        @Html.Label("Bairro")
+                        @Html.TextBoxFor(ent => ent.endereco.bairro, new { @class = "formulario-controle", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.endereco.bairro)
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="grid-2">
+                        @Html.Label("Cidade")
+                        @Html.DropDownListFor(ent => ent.endereco.cidadeid, ViewBag.ListaCidade as SelectList, new { @class = "formulario-controle", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.endereco.cidadeid)
+                    </div>
+                    <div class="grid-2">
+                        @Html.Label("Número")
+                        @Html.TextBoxFor(ent => ent.endereco.numero, new { @class = "formulario-controle", @type = "Number", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.endereco.numero)
+                    </div>
+                    <div class="grid-6">
+                        @Html.Label("Complemento")
+                        @Html.TextBoxFor(ent => ent.endereco.complemento, new { @class = "formulario-controle", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.endereco.complemento)
+                    </div>
+                </div>
+            </div>
+
+            <div class="painel">
+                <div class="row">
+                    <h2>Responsável</h2>
+                </div>
+
+                <br />
+
+                <div class="row">
+                    <div class="grid-4">
+                        @Html.Label("Nome da Mãe")
+                        @Html.TextBoxFor(ent => ent.responsavel[0].nome, new { @class = "formulario-controle", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.responsavel[0].nome)
+                    </div>
+                    <div class="grid-2">
+                        @Html.Label("CPF da Mãe")
+                        @Html.TextBoxFor(ent => ent.responsavel[0].cpf, new { @class = "formulario-controle", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.responsavel[0].cpf)
+                    </div>
+                    <div class="grid-2">
+                        @Html.Label("RG da Mãe")
+                        @Html.TextBoxFor(ent => ent.responsavel[0].rg, new { @class = "formulario-controle", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.responsavel[0].rg)
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="grid-2">
+                        @Html.Label("Profissão da Mãe")
+                        @Html.TextBoxFor(ent => ent.responsavel[0].profissao, new { @class = "formulario-controle", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.responsavel[0].profissao)
+                    </div>
+                    <div class="grid-2">
+                        @Html.Label("Celular da Mãe")
+                        @Html.TextBoxFor(ent => ent.responsavel[0].celular, new { @class = "formulario-controle", @required = true })
+                        @Html.ValidationMessageFor(ent => ent.responsavel[0].celular)
+                    </div>
+                </div>
+
+                <br />
+
+                <div class="row">
+                    <div class="grid-4">
+                        @Html.Label("Nome do Pai")
+                        @Html.TextBoxFor(ent => ent.responsavel[1].nome, new { @class = "formulario-controle" })
+                        @Html.ValidationMessageFor(ent => ent.responsavel[1].nome)
+                    </div>
+                    <div class="grid-2">
+                        @Html.Label("CPF do Pai")
+                        @Html.TextBoxFor(ent => ent.responsavel[1].cpf, new { @class = "formulario-controle" })
+                        @Html.ValidationMessageFor(ent => ent.responsavel[1].cpf)
+                    </div>
+                    <div class="grid-2">
+                        @Html.Label("RG do Pai")
+                        @Html.TextBoxFor(ent => ent.responsavel[1].rg, new { @class = "formulario-controle" })
+                        @Html.ValidationMessageFor(ent => ent.responsavel[1].rg)
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="grid-2">
+                        @Html.Label("Profissão do Pai")
+                        @Html.TextBoxFor(ent => ent.responsavel[1].profissao, new { @class = "formulario-controle" })
+                        @Html.ValidationMessageFor(ent => ent.responsavel[1].profissao)
+                    </div>
+                    <div class="grid-2">
+                        @Html.Label("Celular do Pai")
+                        @Html.TextBoxFor(ent => ent.responsavel[1].celular, new { @class = "formulario-controle" })
+                        @Html.ValidationMessageFor(ent => ent.responsavel[1].celular)
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="grid-12">
+                    <button type="submit" class="botao botao-sucesso">Salvar</button>
+                    <button type="button" class="botao botao-primario" onclick="window.location.href='@Url.Action("Index","Aluno")'">Voltar</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $("#cpf").mask("999.999.999-99");
+            $("#cep").mask("999.99-999");
+            $("#telefone").mask("(99)99999-9999");
+            $("#rg").mask("9.999.999");
+
+            $("#responsavel_0__cpf").mask("999.999.999-99");
+            $("#responsavel_1__cpf").mask("999.999.999-99");
+
+            $("#responsavel_0__rg").mask("9.999.999");
+            $("#responsavel_1__rg").mask("9.999.999");
+
+            $("#responsavel_0__celular").mask("(99)99999-9999");
+            $("#responsavel_1__celular").mask("(99)99999-9999");
+
+            $(".DatePicker").mask('00/00/0000', { placeholder: "__/__/____" }).datepicker({
+                format: "dd/mm/yyyy",
+                clearBtn: true,
+                language: "pt-BR",
+                multidate: false,
+                autoclose: true,
+                todayHighlight: true
+            });
+        })
+
+        function Limpa_Formulario_Cep() {
+            $('#endereco_logradouro').val("");
+            $('#endereco_bairro').val("");
+        }
+
+        function Meu_Callback(conteudo) {
+            if (!("erro" in conteudo)) {
+                $('#endereco_logradouro').val(conteudo.logradouro);
+                $('#endereco_bairro').val(conteudo.bairro);
+            }
+            else {
+                Limpa_Formulario_Cep();
+                alert("CEP não encontrado.");
+            }
+        }
+
+        function PesquisaCep() {
+
+            var cep = $("#endereco_cep").val().replace(/\D/g, '');;
+
+            if (cep != "") {
+
+                var validacep = /^[0-9]{8}$/;
+
+                if (validacep.test(cep)) {
+
+                    $('#endereco_logradouro').val("...");
+                    $('#endereco_bairro').val("...");
+
+                    var script = document.createElement('script');
+                    script.src = 'https://viacep.com.br/ws/' + cep + '/json/?callback=Meu_Callback';
+                    document.body.appendChild(script);
+                }
+                else {
+                    Limpa_Formulario_Cep();
+                    alert("Formato de CEP inválido.");
+                }
+            }
+            else {
+                Limpa_Formulario_Cep();
+            }
+        };
+    </script>
+}

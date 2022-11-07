@@ -1,0 +1,55 @@
+﻿@model List<DAL.Model.Cidade>
+@{
+    Layout = null;
+    int cont = 0;
+}
+<style>
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+    }
+
+    th, td {
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="grid-12">
+            <center><h2>Relatório Cidades</h2></center>
+        </div>
+    </div>
+</div>
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Código</th>
+            <th>Nome</th>
+            <th>Estado</th>
+            <th>Cep</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.OrderBy(ent => ent.nome))
+        {
+            <tr>
+                <td>@(cont = cont + 1)</td>
+                <td>@item.cidadeid</td>
+                <td>@item.nome</td>
+                <td>@item.estado</td>
+                <td>@item.cep</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -1,0 +1,66 @@
+﻿@model List<DAL.Model.Aluno>
+@{
+    Layout = null;
+    int cont = 0;
+}
+<style>
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #000;
+        display: table;
+        box-sizing: border-box;
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="grid-12">
+            <center><h2>Relatório Alunos</h2></center>
+        </div>
+    </div>
+</div>
+<table>
+    @foreach (var item in Model.OrderBy(ent => ent.nome))
+    {
+    <tbody>
+        <tr>
+            <td><b>Código:</b><br /> @item.alunoid</td>
+            <td><b>Nome:</b> @item.nome</td>
+            <td><b>CPF:</b><br />@item.cpf</td>
+        </tr>
+
+        <tr>
+            <td><b>Sexo:</b><br />@(item.sexo == "M" ? "Masculino" : item.sexo == "F" ? "Feminino" : "")</td>
+            <td><b>Telefone:</b><br />@item.telefone</td>
+            <td><b>Data de Cadastro:</b> @(item.datacadastro.HasValue ? item.datacadastro.Value.ToShortDateString() : "")</td>
+        </tr>
+
+        <tr>
+            <td><b>Cidade:</b> @item.endereco.cidade.nome</td>
+            <td><b>CEP:</b><br />@item.endereco.cep</td>
+            <td><b>Bairro:</b> @item.endereco.bairro</td>
+            <td><b>Logradouro:</b> @item.endereco.logradouro</td>
+            <td><b>Número:</b><br />@item.endereco.numero</td>
+            <td><b>Complemento:</b> @item.endereco.complemento</td>
+        </tr>
+        <tr>
+            <td><b>Mãe:</b> @item.responsavel.First().nome</td>
+            <td><b>CPF:</b><br />@item.responsavel.First().cpf</td>
+            <td><b>RG:</b> @item.responsavel.First().rg</td>
+            <td><b>Profissão:</b> @item.responsavel.First().profissao</td>
+            <td><b>Celular:</b><br />@item.responsavel.First().celular</td>
+        </tr>
+        <tr>
+            <td><b>Pai:</b> @item.responsavel.Last().nome</td>
+            <td><b>CPF:</b><br />@item.responsavel.Last().cpf</td>
+            <td><b>RG:</b> @item.responsavel.Last().rg</td>
+            <td><b>Profissão:</b> @item.responsavel.Last().profissao</td>
+            <td><b>Celular:</b><br />@item.responsavel.Last().celular</td>
+        </tr>
+    </tbody>
+    }
+</table>
+
+

@@ -1,0 +1,53 @@
+﻿@{ 
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Entrar</title>
+    <link href="~/Content/style/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container body-content">
+        <div class="container content-login">
+            <div class="painel">
+                <h3>Entrar</h3>
+                <hr />
+                @using (Html.BeginForm("LogIn", "Login", FormMethod.Post, new { @id = "formFiltros" }))
+                {
+                    <div class="row">
+                        <div class="grid-12">
+                            <input name="email" id="email" type="text" class="formulario-controle" placeholder="Email" autofocus />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="grid-12">
+                            <input name="senha" id="senha" type="password" class="formulario-controle" placeholder="Senha" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="grid-12">
+                            <button type="submit" class="botao botao-primario botao-login"> Entrar </button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="grid-12 botao-inscrever-se">
+                            <a href="@Url.Action("Index","Usuario")">Me inscrever</a>
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Aplicativo SAEINFO</p>
+        </footer>
+    </div>
+</body>
+</html>
+

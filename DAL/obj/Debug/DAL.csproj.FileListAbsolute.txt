@@ -1,0 +1,48 @@
+C:\Users\aiigh\source\repos\TelaCadastro\DAL\bin\Debug\DAL.dll.config
+C:\Users\aiigh\source\repos\TelaCadastro\DAL\bin\Debug\DAL.dll
+C:\Users\aiigh\source\repos\TelaCadastro\DAL\bin\Debug\DAL.pdb
+C:\Users\aiigh\source\repos\TelaCadastro\DAL\bin\Debug\EntityFramework.dll
+C:\Users\aiigh\source\repos\TelaCadastro\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aiigh\source\repos\TelaCadastro\DAL\bin\Debug\EntityFramework.xml
+C:\Users\aiigh\source\repos\TelaCadastro\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aiigh\source\repos\TelaCadastro\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\aiigh\source\repos\TelaCadastro\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\aiigh\source\repos\TelaCadastro\DAL\obj\Debug\DAL.dll
+C:\Users\aiigh\source\repos\TelaCadastro\DAL\obj\Debug\DAL.pdb
+C:\Users\aiigh\source\repos\TelaCadastro\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\lorra\source\repos\TelaCadastro\DAL\bin\Debug\DAL.dll.config
+C:\Users\lorra\source\repos\TelaCadastro\DAL\bin\Debug\DAL.dll
+C:\Users\lorra\source\repos\TelaCadastro\DAL\bin\Debug\DAL.pdb
+C:\Users\lorra\source\repos\TelaCadastro\DAL\bin\Debug\EntityFramework.dll
+C:\Users\lorra\source\repos\TelaCadastro\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lorra\source\repos\TelaCadastro\DAL\bin\Debug\EntityFramework.xml
+C:\Users\lorra\source\repos\TelaCadastro\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lorra\source\repos\TelaCadastro\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\lorra\source\repos\TelaCadastro\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\lorra\source\repos\TelaCadastro\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\lorra\source\repos\TelaCadastro\DAL\obj\Debug\DAL.dll
+C:\Users\lorra\source\repos\TelaCadastro\DAL\obj\Debug\DAL.pdb
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\bin\Debug\DAL.dll.config
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\bin\Debug\DAL.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\bin\Debug\DAL.pdb
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\bin\Debug\EntityFramework.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\bin\Debug\EntityFramework.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\obj\Debug\DAL.dll
+D:\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\obj\Debug\DAL.pdb
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\bin\Debug\DAL.dll.config
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\bin\Debug\DAL.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\bin\Debug\DAL.pdb
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\bin\Debug\EntityFramework.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\bin\Debug\EntityFramework.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\obj\Debug\DAL.dll
+D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\obj\Debug\DAL.pdb

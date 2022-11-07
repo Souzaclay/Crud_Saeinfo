@@ -1,0 +1,113 @@
+﻿@{
+    ViewBag.Title = "Gráficos";
+}
+<body>
+    <!--Div that will hold the pie chart-->
+    <div class="row">
+        <div class="grid-6">
+            <div id="chart_div" style="margin-top:70px;"></div>
+        </div>
+        <div class="grid-6">
+            <div class="row">
+                <div class="grid-6">
+                    @Html.Label("Data Inicio")
+                    @Html.TextBox("datainicio", null, new { @class = "formulario-controle DatePicker", @onchange = "GraficoAlunosPorDataHora()" })
+                </div>
+                <div class="grid-6">
+                    @Html.Label("Data Fim")
+                    @Html.TextBox("datafim", null, new { @class = "formulario-controle DatePicker", @onchange = "GraficoAlunosPorDataHora()" })
+                </div>
+            </div>
+            <div id="chart_divAlunoDataHora"></div>
+        </div>
+    </div>
+</body>
+
+@section Scripts{
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            google.charts.load('current', { 'packages': ['corechart'] });
+
+            google.charts.setOnLoadCallback(drawChart);
+
+            $(".DatePicker").mask('00/00/0000 00:00:00', { placeholder: "__/__/____ 00:00:00" }).datepicker({
+                format: "dd/mm/yyyy 00:00:00",
+                clearBtn: true,
+                language: "pt-BR",
+                multidate: false,
+                autoclose: true,
+                todayHighlight: true
+            });
+
+        })
+
+        function drawChart() {
+            BuscarAlunosPorCidade();
+        }
+
+        function BuscarAlunosPorCidade() {
+            $.post("Grafico/GraficoAlunosPorCidade")
+                .done(function (r) {
+                    GraficoRenderAlunoCidade(r);
+                });
+        }
+
+        function GraficoRenderAlunoCidade(json) {
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Topping');
+            data.addColumn('number', 'Slices');
+
+            $.map(json, function (n, i) {
+                data.addRow([n['cidade'], n['qtdalunos']])
+            });
+
+            var options = {
+                'title': 'Alunos por Cidade',
+                'width': 600,
+                'height': 400
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+            chart.draw(data, options);
+        }
+
+        function GraficoAlunosPorDataHora() {
+            google.charts.load('current', { 'packages': ['corechart'] });
+
+            google.charts.setOnLoadCallback(drawChartDataHora);
+        }
+
+        function drawChartDataHora() {
+            BuscarAlunosDataHora();
+        }
+
+        function BuscarAlunosDataHora() {
+            var datainicio = $("#datainicio").val();
+            var datafim = $("#datafim").val();
+
+            $.post("Grafico/GraficoAlunosPorDataHora", { datainicio: datainicio, datafim: datafim })
+                .done(function (r) {
+                    GraficoRenderAlunoDataHora(r);
+                });
+        }
+
+        function GraficoRenderAlunoDataHora(json) {
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Topping');
+            data.addColumn('number', 'Slices');
+            data.addRow([json.alunos, json.qtdalunos]);
+
+            var options = {
+                'title': 'Alunos por Data\Hora',
+                'width': 600,
+                'height': 400
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('chart_divAlunoDataHora'));
+            chart.draw(data, options);
+        }
+    </script>
+}

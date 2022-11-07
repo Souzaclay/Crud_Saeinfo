@@ -1,0 +1,40 @@
+﻿@model TelaCadastro.Util.TabelaGenerica<DAL.Model.Cidade>
+@{
+    ViewBag.Title = "Alunos de Cidades";
+}
+
+<div class="row">
+    <div class="grid-4">
+        <button type="button" style="cursor:pointer;z-index:1!important;" class="card card-primario" onclick="ImprimirAlunos()">
+            Alunos
+        </button>
+    </div>
+    <div class="grid-4">
+        <button type="button" style="cursor:pointer;z-index:1!important;" class="card card-sucesso" onclick="ImprimirCidades()">
+            Cidades
+        </button>
+    </div>
+    <div class="grid-4" >
+        <button type="button" style="cursor:pointer;z-index:1!important;" class="card card-padrao" onclick="ImprimirAlunoPorCidades()">
+            Alunos por Cidade
+        </button>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+
+        function ImprimirAlunos() {
+            window.open("Relatorio/Imprimir?registros=TabelaAluno", "resizable=1");
+        }
+
+        function ImprimirCidades() {
+            window.open("Relatorio/Imprimir?registros=TabelaCidade", "resizable=1");
+        }
+
+        function ImprimirAlunoPorCidades() {
+            window.open("Relatorio/Imprimir?registros=TabelaAlunoCidade", "resizable=1");
+        }
+
+    </script>
+}

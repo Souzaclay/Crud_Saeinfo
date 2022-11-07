@@ -1,0 +1,89 @@
+﻿@model List<DAL.Model.Cidade>
+@using DAL.Persistence;
+@{
+    Layout = null;
+    int cont = 0;
+    var alunos = new AlunoDal().ObterTodos();
+}
+
+<style>
+    .container-rel {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    th, td {
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="grid-12">
+            <center><h2>Relatório Alunos por Cidade</h2></center>
+        </div>
+    </div>
+</div>
+
+@foreach (var item in Model.OrderBy(ent => ent.nome))
+{
+    <div class="container-rel">
+        <div class="row">
+            <div class="grid-4">
+                <label><b>Nome:</b></label>
+                <input type="text" value="@item.nome" style="border:0;" />
+            </div>
+            <div class="grid-2">
+                <label><b>Estado:</b></label>
+                <input type="text" value="@item.estado" style="border:0;" />
+            </div>
+            <div class="grid-2">
+                <label><b>CEP:</b></label>
+                <input type="text" value="@item.cep" style="border:0;" />
+            </div>
+        </div>
+        <br />
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Código</th>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Sexo</th>
+                    <th>Telefone</th>
+                    <th>DataCadastro</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var aluno in alunos.Where(ent => ent.endereco.cidadeid == item.cidadeid))
+                {
+                    <tr>
+                        <td>@(cont = cont + 1)</td>
+                        <td>@aluno.alunoid</td>
+                        <td>@aluno.nome</td>
+                        <td>@aluno.cpf</td>
+                        <td>@aluno.sexo</td>
+                        <td>@aluno.telefone</td>
+                        <td>@(aluno.datacadastro.HasValue ? aluno.datacadastro.Value.ToShortDateString() : "")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+

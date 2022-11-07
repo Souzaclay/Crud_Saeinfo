@@ -1,0 +1,62 @@
+﻿@model TelaCadastro.Util.TabelaGenerica<DAL.Model.Aluno>
+@{
+    Layout = null;
+    int cont = (Model.PaginaAtual - 1) * Model.Paginacao;
+}
+
+<table>
+    <thead class="tableHead">
+        <tr>
+            <th>#</th>
+            <th onclick="Ordenar('alunoid')">Código</th>
+            <th onclick="Ordenar('nome')">Nome</th>
+            <th onclick="Ordenar('cpf')">Cpf</th>
+            <th onclick="Ordenar('sexo')">Sexo</th>
+            <th onclick="Ordenar('telefone')">Telefone</th>
+            <th onclick="Ordenar('datacadastro')">Data de Cadastro</th>
+            <th onclick="Ordenar('cidade')">Cidade</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody class="tableBody">
+        @foreach (var item in Model.Dados)
+        {
+            <tr>
+                <td>@(cont = cont + 1)</td>
+                <td>@item.alunoid</td>
+                <td>@item.nome</td>
+                <td>@item.cpf</td>
+                <td>@(item.sexo == "M" ? "Masculino" : item.sexo == "F" ? "Feminino" : "")</td>
+                <td>@item.telefone</td>
+                <td>@(item.datacadastro.HasValue ? item.datacadastro.Value.ToShortDateString() : "")</td>
+                <td>@item.endereco.cidade.nome</td>
+                <td>
+                        <button title="Visualizar" class="botao botao-primario" type="button" onclick="window.location.href = '@Url.Action("Visualizar", new { id = item.alunoid })'"></button>
+                        <button title="Editar" class="botao botao-sucesso" type="button" onclick="window.location.href = '@Url.Action("Alterar", new { id = item.alunoid })'"></button>
+                        <button title="Excluir" class="botao botao-perigo" type="button" onclick="window.location.href='@Url.Action("Excluir", new { id = item.alunoid})'"></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="10">
+                <div class="col-md-4 col-sm-4 col-xs-4 pull-left">
+                    @Html.HiddenFor(ent => ent.Paginacao)
+                    <span class="@(Model.Paginacao == 10 ? "link_selecionado" : "")" onclick="mudarPaginacao(10)">10</span>&nbsp;
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4" style="text-align: center;">
+                    <div class="form-inline input-group-sm">
+                        <button type="button" class="botao botao-primario" onclick="mudarPagina(@(Model.PaginaAtual == 1 ? 1 : Model.PaginaAtual - 1))"><span class="fa fa-chevron-left"></span></button>
+                        Página @Html.TextBoxFor(ent => ent.PaginaAtual, new { @class = "form-control", @style = "width: 35px;", @onkeyup = "mudarPagina();" }) de @Model.TotalPaginas &nbsp;
+                        <button type="button" class="botao botao-primario" onclick="mudarPagina(@(Model.PaginaAtual == Model.TotalPaginas ? Model.TotalPaginas : Model.PaginaAtual + 1))"><span class="fa fa-chevron-right"></span></button>
+                    </div>
+                </div>
+                <div class="col-md-4 pull-right col-sm-4 col-xs-4" style="text-align: right">
+                    <b>Total:</b> @Model.TotalRegistros
+                </div>
+            </td>
+        </tr>
+    </tfoot>
+</table>
+
