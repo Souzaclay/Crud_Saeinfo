@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataSource\Conexao.cs" />
+    <Compile Include="Model\Curso.cs" />
     <Compile Include="Model\novaClasse.cs" />
     <Compile Include="Model\Professor.cs" />
     <Compile Include="Model\Responsavel.cs" />
@@ -61,6 +62,7 @@
     <Compile Include="Model\Aluno.cs" />
     <Compile Include="Model\Cidade.cs" />
     <Compile Include="Model\Usuario.cs" />
+    <Compile Include="Persistence\CursoDal.cs" />
     <Compile Include="Persistence\ProfessorDal.cs" />
     <Compile Include="Persistence\ResponsavelDal.cs" />
     <Compile Include="Persistence\EnderecoDal.cs" />

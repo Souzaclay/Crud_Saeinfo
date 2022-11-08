@@ -1,0 +1,47 @@
+﻿@model List<TelaCadastro.ViewModels.CursoViewModel>
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    <div class="painel">
+        <div class="row">
+            <button type="button" class="botao botao-primario" onclick="window.location.href = '@Url.Action("Incluir", "Curso")'">Criar</button>
+        </div>
+        <br />
+        <div class="row">
+            <table id="TabelaCursos">
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>descrição</th>
+                        <th>Turno</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var curso in Model)
+                    {
+                        <tr>
+                            <td>@curso.cursoid</td>
+                            <td>@curso.descricao</td>
+                            <td>@curso.turno</td>
+                            <td></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@*O que faz?????*@
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $("#TabelaCurso").DataTable();
+        })
+    </script>
+}
+

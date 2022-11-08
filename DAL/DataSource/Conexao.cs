@@ -22,8 +22,7 @@ namespace DAL.DataSource
         public DbSet<Professor> Professor { get; set; }
         public DbSet<Responsavel> Responsavel { get; set; }
         public DbSet<Endereco> Endereco { get; set; }
-
-
+        public DbSet<Curso> Curso { get; set; }
 
     }
 }

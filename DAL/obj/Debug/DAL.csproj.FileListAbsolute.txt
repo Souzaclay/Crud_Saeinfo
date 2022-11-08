@@ -46,3 +46,15 @@ D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\obj\De
 D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\obj\Debug\DAL.dll
 D:\CURSOS\Projetos c#\Projetos c#\desenvolvimento-master\TelaCadastro\DAL\obj\Debug\DAL.pdb
+D:\CODIGOS\PROJETO-SAEINFO\Crud_Saeinfo\DAL\bin\Debug\DAL.dll.config
+D:\CODIGOS\PROJETO-SAEINFO\Crud_Saeinfo\DAL\bin\Debug\DAL.dll
+D:\CODIGOS\PROJETO-SAEINFO\Crud_Saeinfo\DAL\bin\Debug\DAL.pdb
+D:\CODIGOS\PROJETO-SAEINFO\Crud_Saeinfo\DAL\bin\Debug\EntityFramework.dll
+D:\CODIGOS\PROJETO-SAEINFO\Crud_Saeinfo\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\CODIGOS\PROJETO-SAEINFO\Crud_Saeinfo\DAL\bin\Debug\EntityFramework.xml
+D:\CODIGOS\PROJETO-SAEINFO\Crud_Saeinfo\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\CODIGOS\PROJETO-SAEINFO\Crud_Saeinfo\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\CODIGOS\PROJETO-SAEINFO\Crud_Saeinfo\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\CODIGOS\PROJETO-SAEINFO\Crud_Saeinfo\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\CODIGOS\PROJETO-SAEINFO\Crud_Saeinfo\DAL\obj\Debug\DAL.dll
+D:\CODIGOS\PROJETO-SAEINFO\Crud_Saeinfo\DAL\obj\Debug\DAL.pdb
