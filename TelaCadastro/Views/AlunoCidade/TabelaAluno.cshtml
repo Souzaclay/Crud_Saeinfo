@@ -1,6 +1,7 @@
-﻿@model TelaCadastro.Util.TabelaGenerica<DAL.Model.Aluno>
-@{ Layout = null;
-    int cont = (Model.PaginaAtual - 1) * Model.Paginacao; }
+﻿@model List<TelaCadastro.ViewModels.AlunoViewModel>
+@{
+    Layout = null;
+}
 <div class="container">
     <div class="painel modal-painel">
         <button class="modal-fechar" onclick="FecharModal()">X</button>
@@ -8,10 +9,9 @@
         <hr />
 
         <div class="row">
-            <table>
+            <table id="tabelaaluno">
                 <thead class="tableHead">
                     <tr>
-                        <th>#</th>
                         <th>Código</th>
                         <th>Nome</th>
                         <th>Cpf</th>
@@ -19,43 +19,22 @@
                         <th>Telefone</th>
                         <th>Data de Cadastro</th>
                         <th>Cidade</th>
-                        <th></th>
                     </tr>
                 </thead>
                 <tbody class="tableBody">
-                    @foreach (var item in Model.Dados.OrderBy(ent => ent.nome))
+                    @foreach (var item in Model)
                     {
-        <tr>
-            <td>@(cont = cont + 1)</td>
-            <td>@item.alunoid</td>
-            <td>@item.nome</td>
-            <td>@item.cpf</td>
-            <td>@(item.sexo == "M" ? "Masculino" : item.sexo == "F" ? "Feminino" : "")</td>
-            <td>@item.telefone</td>
-            <td>@(item.datacadastro.HasValue ? item.datacadastro.Value.ToShortDateString() : "")</td>
-            <td>@item.endereco.cidade.nome</td>
-        </tr>}
+                        <tr>
+                            <td>@item.alunoid</td>
+                            <td>@item.nome</td>
+                            <td>@item.cpf</td>
+                            <td>@(item.sexo == "M" ? "Masculino" : item.sexo == "F" ? "Feminino" : "")</td>
+                            <td>@item.telefone</td>
+                            <td>@(item.datacadastro.HasValue ? item.datacadastro.Value.ToShortDateString() : "")</td>
+                            <td>@item.cidade</td>
+                        </tr>
+                    }
                 </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="10">
-                            <div class="col-md-4 col-sm-4 col-xs-4 pull-left">
-                                @Html.HiddenFor(ent => ent.Paginacao)
-                                <span class="link @(Model.Paginacao == 10 ? "link_selecionado" : "")" onclick="mudarPaginacao(10)">10</span>&nbsp;
-                            </div>
-                            <div class="col-md-4 col-sm-4 col-xs-4" style="text-align: center;">
-                                <div class="form-inline input-group-sm">
-                                    <button type="button" class="botao botao-primario" onclick="mudarPagina(@(Model.PaginaAtual == 1 ? 1 : Model.PaginaAtual - 1))"><span class="fa fa-chevron-left"></span></button>
-                                    Página @Html.TextBoxFor(ent => ent.PaginaAtual, new { @class = "form-control", @style = "width: 35px;", @onkeyup = "mudarPagina();" }) de @Model.TotalPaginas &nbsp;
-                                    <button type="button" class="botao botao-primario" onclick="mudarPagina(@(Model.PaginaAtual == Model.TotalPaginas ? Model.TotalPaginas : Model.PaginaAtual + 1))"><span class="fa fa-chevron-right"></span></button>
-                                </div>
-                            </div>
-                            <div class="col-md-4 pull-right col-sm-4 col-xs-4" style="text-align: right">
-                                <b>Total:</b> @Model.TotalRegistros
-                            </div>
-                        </td>
-                    </tr>
-                </tfoot>
             </table>
         </div>
     </div>

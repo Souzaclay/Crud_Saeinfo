@@ -19,159 +19,24 @@ namespace TelaCadastro.Controllers
         public ActionResult Index()
         {
             var listaAluno = new AlunoDal().ObterTodos().ToList();
-            var quantidade = listaAluno.Count();
+            List<AlunoViewModel> alunos = new List<AlunoViewModel>();
 
-            var paginacao = StrToInt32(ConfigurationManager.AppSettings["PaginacaoPadrao"]);
-
-            var grid = new TabelaGenerica<Aluno>
+            foreach (var aluno in listaAluno)
             {
-                Dados = listaAluno.ToList<Aluno>().OrderBy(ent => ent.nome).
-                Take(paginacao > quantidade ? quantidade : paginacao).ToList(),
-                Paginacao = paginacao,
-                ClassesCss = "table table-hover",
-                PaginaAtual = 1,
-                TotalRegistros = quantidade
-            };
+                alunos.Add(new AlunoViewModel
+                {
+                    alunoid = aluno.alunoid,
+                    nome = aluno.nome,
+                    sexo = aluno.sexo,
+                    telefone = aluno.telefone,
+                    datacadastro = aluno.datacadastro,
+                    cidade = aluno.endereco.cidade.nome
+                });
+            }
 
             PrepararViewBags();
 
-            return View(grid);
-        }
-
-        public ActionResult TabelaAluno(Filtro[] filtros)
-        {
-            var paginacao = StrToInt32(ConfigurationManager.AppSettings["PaginacaoPadrao"]);
-            var paginaAtual = 1;
-
-            var listaaluno = new AlunoDal().ObterTodos().ToList();
-
-            if (filtros != null)
-            {
-                var listaFiltrosValidos = filtros.ToList<Filtro>().Where(ent => !String.IsNullOrEmpty(ent.value));
-                foreach (var filtro in listaFiltrosValidos)
-                {
-                    switch (filtro.name)
-                    {
-                        case "codigo":
-                            var id = Convert.ToInt32(filtro.value);
-                            listaaluno = listaaluno.Where(ent => ent.alunoid == id).ToList();
-                            break;
-                        case "nome":
-                            listaaluno = listaaluno.Where(ent => ent.nome.Contains(filtro.value)).ToList();
-                            break;
-                        case "cpf":
-                            var cpf = RemoveMascara(filtro.value);
-                            listaaluno = listaaluno.Where(ent => ent.cpf == cpf).ToList();
-                            break;
-                        case "datanascimento":
-                            var datanascimento = Convert.ToDateTime(filtro.value + " 00:00:00");
-                            listaaluno = listaaluno.Where(ent => ent.datanascimento.Value.Date == datanascimento.Date).ToList();
-                            break;
-                        case "datacadastro":
-                            var datacadastro = Convert.ToDateTime(filtro.value + " 00:00:00");
-                            listaaluno = listaaluno.Where(ent => ent.datacadastro.Value.Date == datacadastro.Date).ToList();
-                            break;
-                        case "Paginacao":
-                            paginacao = StrToInt32(filtro.value);
-                            break;
-                        case "PaginaAtual":
-                            paginaAtual = StrToInt32(filtro.value);
-                            break;
-                    }
-                }
-            }
-
-            int quantidade = listaaluno.Count();
-
-            var grid = new TabelaGenerica<Aluno>
-            {
-                Dados = listaaluno.OrderBy(ent => ent.nome)
-              .ToList()
-              .Skip(paginacao * (paginaAtual - 1)).Take(paginacao > quantidade ? quantidade : paginacao).ToList(),
-                Paginacao = paginacao,
-                PaginaAtual = paginaAtual,
-                TotalRegistros = quantidade
-            };
-
-            return View(grid);
-        }
-
-        public ActionResult Ordenar(string campo, string ordem)
-        {
-
-            var listaaluno = new AlunoDal().ObterTodos().ToList();
-
-            if (ordem == "cres")
-            {
-                switch (campo)
-                {
-                    case "alunoid":
-                        listaaluno = listaaluno.OrderBy(ent => ent.alunoid).ToList();
-                        break;
-                    case "nome":
-                        listaaluno = listaaluno.OrderBy(ent => ent.nome).ToList();
-                        break;
-                    case "cpf":
-                        listaaluno = listaaluno.OrderBy(ent => ent.cpf).ToList();
-                        break;
-                    case "sexo":
-                        listaaluno = listaaluno.OrderBy(ent => ent.sexo).ToList();
-                        break;
-                    case "telefone":
-                        listaaluno = listaaluno.OrderBy(ent => ent.telefone).ToList();
-                        break;
-                    case "datacadastro":
-                        listaaluno = listaaluno.OrderBy(ent => ent.datacadastro).ToList();
-                        break;
-                    case "cidade":
-                        listaaluno = listaaluno.OrderBy(ent => ent.endereco.cidade.nome).ToList();
-                        break;
-                }
-                
-            }
-            else
-            {
-                switch (campo)
-                {
-                    case "alunoid":
-                        listaaluno = listaaluno.OrderByDescending(ent => ent.alunoid).ToList();
-                        break;
-                    case "nome":
-                        listaaluno = listaaluno.OrderByDescending(ent => ent.nome).ToList();
-                        break;
-                    case "cpf":
-                        listaaluno = listaaluno.OrderByDescending(ent => ent.cpf).ToList();
-                        break;
-                    case "sexo":
-                        listaaluno = listaaluno.OrderByDescending(ent => ent.sexo).ToList();
-                        break;
-                    case "telefone":
-                        listaaluno = listaaluno.OrderByDescending(ent => ent.telefone).ToList();
-                        break;
-                    case "datacadastro":
-                        listaaluno = listaaluno.OrderByDescending(ent => ent.datacadastro).ToList();
-                        break;
-                    case "cidade":
-                        listaaluno = listaaluno.OrderByDescending(ent => ent.endereco.cidade.nome).ToList();
-                        break;
-                }
-            }
-
-            var paginacao = StrToInt32(ConfigurationManager.AppSettings["PaginacaoPadrao"]);
-            var paginaAtual = 1;
-
-            int quantidade = listaaluno.Count();
-
-            var grid = new TabelaGenerica<Aluno>
-            {
-                Dados = listaaluno.ToList()
-              .Skip(paginacao * (paginaAtual - 1)).Take(paginacao > quantidade ? quantidade : paginacao).ToList(),
-                Paginacao = paginacao,
-                PaginaAtual = paginaAtual,
-                TotalRegistros = quantidade
-            };
-
-            return View("TabelaAluno", grid);
+            return View(alunos);
         }
 
         public ActionResult Incluir()

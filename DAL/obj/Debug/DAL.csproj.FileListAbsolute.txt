@@ -58,3 +58,15 @@ D:\CODIGOS\PROJETO-SAEINFO\Crud_Saeinfo\DAL\obj\Debug\DAL.csproj.CoreCompileInpu
 D:\CODIGOS\PROJETO-SAEINFO\Crud_Saeinfo\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\CODIGOS\PROJETO-SAEINFO\Crud_Saeinfo\DAL\obj\Debug\DAL.dll
 D:\CODIGOS\PROJETO-SAEINFO\Crud_Saeinfo\DAL\obj\Debug\DAL.pdb
+D:\projetos\Crud_Saeinfo\DAL\bin\Debug\DAL.dll.config
+D:\projetos\Crud_Saeinfo\DAL\bin\Debug\DAL.dll
+D:\projetos\Crud_Saeinfo\DAL\bin\Debug\DAL.pdb
+D:\projetos\Crud_Saeinfo\DAL\bin\Debug\EntityFramework.dll
+D:\projetos\Crud_Saeinfo\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\projetos\Crud_Saeinfo\DAL\bin\Debug\EntityFramework.xml
+D:\projetos\Crud_Saeinfo\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\projetos\Crud_Saeinfo\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\projetos\Crud_Saeinfo\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\projetos\Crud_Saeinfo\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\projetos\Crud_Saeinfo\DAL\obj\Debug\DAL.dll
+D:\projetos\Crud_Saeinfo\DAL\obj\Debug\DAL.pdb

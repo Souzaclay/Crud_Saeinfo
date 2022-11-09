@@ -36,8 +36,6 @@ namespace TelaCadastro.Controllers
             return View(grid);
         }
 
-    
-
         public ActionResult Ordenar(string campo, string ordem)
         {
 
@@ -118,11 +116,6 @@ namespace TelaCadastro.Controllers
         }
 
         [HttpPost]
-   
-
-        
-
-       
         public ActionResult Visualizar(int id)
         {
             var obj = new ProfessorDal().Obter(id);
@@ -132,10 +125,7 @@ namespace TelaCadastro.Controllers
             return View();
         }
 
-
         [HttpPost]
-     
-
         public void PrepararViewBags()
         {
             Dictionary<string, string> listasexo = new Dictionary<string, string>();

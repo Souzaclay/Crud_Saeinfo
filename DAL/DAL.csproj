@@ -55,7 +55,6 @@
   <ItemGroup>
     <Compile Include="DataSource\Conexao.cs" />
     <Compile Include="Model\Curso.cs" />
-    <Compile Include="Model\novaClasse.cs" />
     <Compile Include="Model\Professor.cs" />
     <Compile Include="Model\Responsavel.cs" />
     <Compile Include="Model\Endereco.cs" />

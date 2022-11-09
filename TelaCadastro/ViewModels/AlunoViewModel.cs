@@ -54,6 +54,8 @@ namespace TelaCadastro.ViewModels
         [DisplayName("Telefone")]
         public string telefone { get; set; }
 
+        public string cidade { get; set; }
+
         public virtual EnderecoViewModel endereco { get; set; }
 
         public virtual List<ResponsavelViewModel> responsavel { get; set; }

@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DAL.DataSource;
 using DAL.Model;
+using System.Data.Entity;
 
 namespace DAL.Persistence
 {
@@ -58,7 +59,7 @@ namespace DAL.Persistence
 
         public IQueryable<Aluno> ObterVarios(Expression<Func<Aluno, bool>> where)
         {
-            return Con.Aluno.Where(where);
+            return Con.Aluno.Include("endereco").Where(where);
         }
 
         public virtual IQueryable<Aluno> ObterTodos()
